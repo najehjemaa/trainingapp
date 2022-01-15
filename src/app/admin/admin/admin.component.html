@@ -1,0 +1,8 @@
+<nav class="topnav">
+  <a routerLink="./list" routerLinkActive="active"> List </a>
+  <a routerLink="./add" routerLinkActive="active"> Add List </a>
+  <a [routerLink]="['./edit', 1]" routerLinkActive="active"> Edit List </a>
+</nav>
+<section>
+  <router-outlet></router-outlet>
+</section>
